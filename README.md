@@ -7,7 +7,7 @@ Visit https://www.h2o.ai/, click "Open Source" and select "H2O Download Latest".
 
 This will download a zip file.
 
-Unzip the zip file (in Windows you can do this using your File Explorer), and in Mac you can use ...
+Unzip the zip file (in Windows you can do this using your File Explorer), and on Mac, the it should automatically save as an unzipped folder where you downloaded it.
 
 **h2o.ai needs Java to run**
 
