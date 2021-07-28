@@ -18,3 +18,7 @@ Java 8, 9, 10, 11, 12, 13, 14, 15 are all supported.
 To run the H2O binary using either the command line, R, or Python packages, only 64-bit JRE is required.
 
 Both of these are available on the Java download page, http://www.oracle.com/technetwork/java/javase/downloads/index.html. 
+
+## Data
+
+All of the data we will be using is at https://vanderbilt.box.com/s/jf1lpr0lm2tk071brdcgpn9uz7yce07m. 
