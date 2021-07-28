@@ -46,6 +46,6 @@ java -jar h2o.jar
 
 In the H2O flow browser window, click on ImportFiles
 
-Navigate to where your data is stored, and copy the location. On Mac, you can select the file and press Shift + right click (two finger click on a trackpad) to copy the file location as a pathname.
+Navigate to where your data is stored, and copy the location. On Mac, you can select the file and press option + right click (two finger click on a trackpad) to copy the file location as a pathname.
 
 Paste this location into the Search field in the Import Fields cell. 
