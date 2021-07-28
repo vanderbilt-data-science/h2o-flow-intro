@@ -22,3 +22,24 @@ Both of these are available on the Java download page, http://www.oracle.com/tec
 ## Data
 
 All of the data we will be using is at https://vanderbilt.box.com/s/jf1lpr0lm2tk071brdcgpn9uz7yce07m. 
+
+## Starting H2O
+
+Get started with H2O in 3 easy steps
+1. Download H2O. This is a zip file that contains everything you need to get started.
+
+2. From your terminal, run:
+
+cd ~/Downloads
+unzip h2o-3.32.1.4.zip
+cd h2o-3.32.1.4
+java -jar h2o.jar
+3. Point your browser to http://localhost:54321
+
+## Importing Your Data
+
+In the H2O flow browser window, click on ImportFiles
+
+Navigate to where your data is stored, and copy the location.
+
+Paste this location into the Search field in the Import Fields cell. 
