@@ -17,7 +17,13 @@ Java 8, 9, 10, 11, 12, 13, 14, 15 are all supported.
 
 To run the H2O binary using either the command line, R, or Python packages, only 64-bit JRE is required.
 
-Both of these are available on the Java download page, http://www.oracle.com/technetwork/java/javase/downloads/index.html. 
+As the most recent version of Java is unsupported by h2o, please either use a previous version of Java, or download Java SE 15 from the following link: https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html
+
+Note that you may need to sign in to or create a new Oracle account in order to download a previous version of Java. Follow the installation instructions given after downloading the right installer for your machine. 
+
+To check which version of Java you have on your machine, write ```java --version``` in Terminal if you are on a Mac or ```java -version``` if you are using Windows. 
+
+Downgrading from Jave 16 to 15 can be challenging. One approach is to delete Java 16 where it is stored in your system files or follow the instructions at this link **at your own risk** https://www.java.com/en/download/help/uninstall_java.html. You may be unable to do this during the workshop. 
 
 ## Data
 
@@ -40,6 +46,6 @@ java -jar h2o.jar
 
 In the H2O flow browser window, click on ImportFiles
 
-Navigate to where your data is stored, and copy the location.
+Navigate to where your data is stored, and copy the location. On Mac, you can select the file and press Shift + right click (two finger click on a trackpad) to copy the file location as a pathname.
 
 Paste this location into the Search field in the Import Fields cell. 
