@@ -14,8 +14,9 @@ We'll tackle the problem of how to find evidence of where toolmakers from stone-
 Outline:
 - Installing software, downloading data
 - Ancient Artifacts problem
-- Breakout room. How would you identify 200 particles in a million??
+- Breakout room 1: How would you identify 200 particles in a million?? (follow instructions at https://docs.google.com/document/d/1K1HJMNj7HZgxrqzV3FI6MlgyLfQcfC8LyMQneV5IZSU/edit?usp=sharing)
 - Hands-on Ancient Artifact Machine Learning approach
+- Breakout room 2: Trying out different models
 - Assessing how well our model works
 
 
