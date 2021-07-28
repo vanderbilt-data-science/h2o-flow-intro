@@ -7,6 +7,17 @@ Hands-on introduction to H2O flow
 
 The lifecycle of a data science project has many parts, and often requires the coordinated work of an entire team. Today, we'll be examining one small, but very important part of the process--training and testing machine learning algorithms (Modeling and Assessment, above). 
 
+In this workshop, we'll start with a brief overview of machine learning. *Note that we are not following best practices today.*
+
+We'll tackle the problem of how to find evidence of where toolmakers from stone-age societies plied their craft by analyzing individual particles in soil samples! See https://www.tandfonline.com/doi/abs/10.1080/01977261.2020.1860351 for background on the particle analysis approach. 
+
+Outline:
+- Installing software, downloading data
+- Ancient Artifacts problem
+- Breakout room. How would you identify 200 particles in a million??
+- Hands-on Ancient Artifact Machine Learning approach
+- Assessing how well our model works
+
 
 ## Installing h2o.ai 
 
