@@ -20,9 +20,9 @@ Unzip the zip file (in Windows you can do this using your File Explorer), and on
 
 ## Installing Java
 
-Java 8, 9, 10, 11, 12, 13, 14, 15 are all supported.
+Java 8, 9, 10, 11, 12, 13, 14, 15 are all supported. **Note the that latest version, Java 16, is not supported.**
 
-To run the H2O binary using either the command line, R, or Python packages, only 64-bit JRE is required.
+Only 64-bit JRE is required.
 
 As the most recent version of Java is unsupported by h2o, please either use a previous version of Java, or download Java SE 15 from the following link: https://www.oracle.com/java/technologies/javase/jdk15-archive-downloads.html
 
@@ -34,20 +34,19 @@ Downgrading from Java 16 to 15 can be challenging. One approach is to delete Jav
 
 ## Data
 
-All of the data we will be using is at https://vanderbilt.box.com/s/jf1lpr0lm2tk071brdcgpn9uz7yce07m. 
+All of the data we will be using is at https://vanderbilt.box.com/s/jf1lpr0lm2tk071brdcgpn9uz7yce07m. Browse to the shared folder, and download each file by hovering over the name, then clicking on the three-dot menu, "More Options". Select "Download".
+
+![image](https://user-images.githubusercontent.com/5521243/127345107-a7454cb5-7d73-4531-897c-f7c8b9c9a7e2.png)
+
 
 ## Starting H2O
 
 Get started with H2O in 3 easy steps
 1. Download H2O. This is a zip file that contains everything you need to get started.
+2. Extract the files using File Explorer
+3. From your terminal, run:
 
-2. From your terminal, run:
-
-```cd ~/Downloads```
-
-```unzip h2o-3.32.1.4.zip```
-
-```cd h2o-3.32.1.4```
+```cd ~/Downloads/h2o-3.32.1.4```
 
 ```java -jar h2o.jar```
 
@@ -55,8 +54,14 @@ Then, point your browser to http://localhost:54321
 
 ## Importing Your Data
 
+First, you'll want to 
+
 In the H2O flow browser window, click on ImportFiles
 
-Navigate to where your data is stored, and copy the location. On Mac, you can select the file and press option + right click (two finger click on a trackpad) to copy the file location as a pathname.
+Navigate to where your data is stored, and copy the location. 
+
+On Windows, open File Explorer (you can right-click on Start and selece File Explorer). Navigate to your Downloads folder, and right-click on the "ancient_artifact.csv", and select "Properties". Copy the location in "Location:"
+
+Mac, you can select the file and press option + right click (two finger click on a trackpad) to copy the file location as a pathname.
 
 Paste this location into the Search field in the Import Fields cell. 
