@@ -23,7 +23,7 @@ Note that you may need to sign in to or create a new Oracle account in order to 
 
 To check which version of Java you have on your machine, write ```java --version``` in Terminal if you are on a Mac or ```java -version``` if you are using Windows. 
 
-Downgrading from Jave 16 to 15 can be challenging. One approach is to delete Java 16 where it is stored in your system files or follow the instructions at this link **at your own risk** https://www.java.com/en/download/help/uninstall_java.html. You may be unable to do this during the workshop. 
+Downgrading from Java 16 to 15 can be challenging. One approach is to delete Java 16 where it is stored in your system files or follow the instructions at this link **at your own risk** https://www.java.com/en/download/help/uninstall_java.html. You may be unable to do this during the workshop. 
 
 ## Data
 
