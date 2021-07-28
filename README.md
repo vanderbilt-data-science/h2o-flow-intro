@@ -37,10 +37,14 @@ Get started with H2O in 3 easy steps
 2. From your terminal, run:
 
 cd ~/Downloads
+
 unzip h2o-3.32.1.4.zip
+
 cd h2o-3.32.1.4
+
 java -jar h2o.jar
-3. Point your browser to http://localhost:54321
+
+Point your browser to http://localhost:54321
 
 ## Importing Your Data
 
