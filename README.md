@@ -5,7 +5,7 @@ Hands-on introduction to H2O flow
 
 ![image](https://user-images.githubusercontent.com/5521243/127340885-830186d4-06fb-41f9-9bba-579f4ecaf647.png)
 
-The lifecycle of a data science project has many parts, and often requires the coordinated work of an entire team. Today, we'll be examining one small, but very important part of the process--training and testing machine learning algorithms. 
+The lifecycle of a data science project has many parts, and often requires the coordinated work of an entire team. Today, we'll be examining one small, but very important part of the process--training and testing machine learning algorithms (Modeling and Assessment, above). 
 
 
 ## Installing h2o.ai 
